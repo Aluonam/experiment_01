@@ -22,7 +22,7 @@ export default function HeaderMenu() {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
       >
-        Dashboard
+        Marau
       </Button>
       <Menu
         id="demo-positioned-menu"
@@ -39,9 +39,9 @@ export default function HeaderMenu() {
           horizontal: 'left',
         }}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}>Nosotras</MenuItem>
+        <MenuItem onClick={handleClose}>Formaciones</MenuItem>
+        <MenuItem onClick={handleClose}>Productos</MenuItem>
       </Menu>
     </div>
   );
