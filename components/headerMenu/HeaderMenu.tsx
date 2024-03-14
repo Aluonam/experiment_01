@@ -15,13 +15,14 @@ export default function HeaderMenu() {
   };
 
   return (
-    <div>
+    <div className={styleMenu.menuBox}>
       <Button
         id="demo-positioned-button"
         aria-controls={open ? 'demo-positioned-menu' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
+        className={styleMenu.buttonTitle}
       >
         Marau
       </Button>
